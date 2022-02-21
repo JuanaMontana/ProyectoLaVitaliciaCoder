@@ -8,7 +8,9 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+	<!-- Css animate -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 	<link rel="stylesheet" href="css/estilo.css">
 </head>
 <body> 
@@ -44,14 +46,14 @@
 		<!-- Inicio contenido -->
 		<main>
 
-			<div class="banner">
+			<div class="banner animate__backInLeft">
 				<a href="views/login.html"><img class="imagen_banner" src="assets/img/banner.png" alt="" width="100%"></a> 
 				<a href="views/login.html"><img class="imagen_banner_mobile" src="assets/img/bannermobile.png" alt="" width="100%"></a> 
 
 			</div>
 
 			<div class="card">
-				<div class="noticia">
+				<div class=" noticia animate__bounceIn">
 					
 					<img class="imagen_noticia" src="assets/img/noticia1.jpg"  alt="noticia1">
 					<p class="item_noticia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, dolorem est voluptatibus illum provident expedita ab repellendus quo sint eius placeat odio non unde eum sed magnam pariatur, obcaecati eaque.</p>
@@ -59,16 +61,16 @@
 					
 				</div>
 
-				<div class="noticia">
+				<div class="noticia animate__bounceIn">
 					<img class="imagen_noticia" src="assets/img/noticia2.jpg"  alt="noticia2">
 					<p class="item_noticia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab commodi porro et minima perspiciatis laudantium officiis quae reiciendis, nihil hic inventore cum aperiam nam labore tenetur. Minus sunt temporibus quaerat.</p>
 					<a class="ver_mas" href="views/noticias.html">Ver Más > </a>
 					
 				</div>
 
-				<div class="noticia">
+				<div class="noticia animate__bounceIn">
 					<img class="imagen_noticia" src="assets/img/noticia3.jpg"  alt="noticia3">
-					<p class="item_noticia">Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Molestiae consequatur amet, ea, nobis voluptate autem recusandae excepturi saepe repellat facere. Aspernatur quis ad, accusantium facilis! Vel numquam, eaque reiciendis. Quam?</p>
+					<p class="item_noticia ">Lorem ipsum dolor sit, amet consectetur, adipisicing elit. Molestiae consequatur amet, ea, nobis voluptate autem recusandae excepturi saepe repellat facere. Aspernatur quis ad, accusantium facilis! Vel numquam, eaque reiciendis. Quam?</p>
 					<a class="ver_mas" href="views/noticias.html">Ver Más > </a>
 					
 				</div>
@@ -87,7 +89,7 @@
 			<!-- REDES SOCIALES -->
 
 			<div>
-				<h3 class="footer_encabezado">REDES SOCIALES</h3>
+				<h3 class="footer_encabezado animate__zoomIn">REDES SOCIALES</h3>
 				<div class="footer_logos">
 					<img class="footer_logoFacebook" src="assets/img/facebook.png" width="50" height="50" alt="logofacebook">
 
@@ -99,5 +101,7 @@
 		</footer>
 
 	</div>
+	<script src="js/wow.min.js"></script>
+    <script> new WOW().init(); </script>
 </body>
 </html>
