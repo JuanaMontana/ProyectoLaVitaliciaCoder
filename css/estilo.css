@@ -1,0 +1,457 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+
+
+	background-color: black;
+  height: 140px;
+}
+
+
+
+.header__nav{
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+
+
+
+
+.nav--background{
+	background-color: #393939;
+}
+
+.nav__item{
+
+  margin-right: 30px;
+	list-style-type: none;
+	/*display: inline;*/
+	text-decoration: none;
+
+}
+
+
+/*INICIO BOTON LOGIN----------------------------------*/
+
+.login_button {
+  appearance: none;
+  background-color: #009672;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.login_button:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.login_button:hover {
+  background-color: #04aa6d;
+}
+
+.login_button:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.login_button:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.login_button:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.login_button{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+  margin-top: 25px;
+}
+
+/*FINAL BOTON LOGIN----------------------------------*/
+
+.container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  
+
+}
+
+.container_login{
+    
+    display: flex;
+    
+    flex-direction:column ;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+    justify-content: space-around;
+    
+
+}
+
+.login {
+  text-align: center;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+.boton_login{
+  text-align: center;
+  margin-right: 40%;
+  margin-left: 40%;
+}
+
+
+
+
+
+
+
+
+
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: #009672;
+}
+
+
+
+
+
+
+
+.card{
+  display: flex;
+  justify-content: center;
+  flex-direction:row ;
+  padding: 40px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+
+
+
+.noticia{
+  width: 300px;
+  height: 600px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+  margin: 50px;
+  border: 1px solid black;
+  border-top: 14px outset #009672;
+  border-radius: 16px;
+
+  
+
+}
+
+.imagen_noticia{
+	width: 280px;
+	height: 170px;
+  margin-right: 10px;
+  margin-left: 10px;
+	object-fit:  cover;
+  text-align: center;
+  
+}
+
+.item_noticia {
+	
+	height: 200px;
+	text-align: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: -30px;
+
+}
+
+.ver_mas{
+  color: #7479d8;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+  margin-top: -80px;
+}
+
+
+
+
+
+.footer{
+  display: flex;
+  justify-content: center;
+}
+.footer_logos{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+.main_contacto{
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.formulario_contacto{
+  text-align: right;
+  padding: 30px;
+}
+
+.mapa_contacto{
+
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  margin: 50px;
+  height: auto;
+  
+}
+
+iframe{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.encuentra_sucursal{
+
+
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  text-align: center;
+
+}
+
+
+.main_quehacemos{
+  display: flex;
+  justify-content: center;
+  flex-direction:row ;
+  padding: 40px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.texto_quehacemos{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  text-align: center;
+
+}
+
+.imagen_quehacemos{
+  width: 300px;
+  height: 200px;
+  margin: 0px;
+  object-fit:  cover;
+  text-align: center;
+}
+
+.main_noticias{
+  display: flex;
+  justify-content: center;
+  flex-direction:column ;
+  padding: 40px;
+  text-align: center;
+  flex-wrap: wrap;
+
+}
+
+
+.main_fondodepensiones{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+/* media queries*/
+
+
+/* media queries mobile*/
+
+@media only screen and (max-width: 768px){
+
+
+
+  .contenedor-padre{
+  display: grid;
+  grid-template-areas:
+  "header" 
+  "main" 
+  "pie";
+  grid-template-columns: 100%;
+  grid-template-rows: auto ;
+
+  }
+
+  header{
+    grid-area: header;
+  }
+
+  main{
+    grid-area: main;
+  }
+
+  footer{
+    grid-area: pie;
+  }
+
+  .imagen_banner{
+    display: none;
+  }
+
+.logoSinFondo {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 80px;
+  height: auto;
+
+}
+
+
+.header_logo{
+  height: 70px;
+  display: flex;
+  padding: 1px;
+  justify-content: space-between;
+}
+
+.banner {
+
+  width="100%
+  display: flex;
+  justify-content: center;
+  flex-flow: nowrap;
+  align-items: center;
+  padding: 0px;
+  margin-top: 0px;
+  border: 0px;
+
+}
+
+
+}
+
+
+
+/* media queries Tablet y desktop*/
+
+
+@media only screen and (min-width: 769px){
+
+
+
+
+  .contenedor-padre{
+  display: grid;
+  grid-template-areas:
+  "header" 
+  "main" 
+  "pie";
+  grid-template-columns: 100%;
+  grid-template-rows: 140px auto;
+
+}
+
+header{
+  grid-area: header;
+}
+
+main{
+  grid-area: main;
+}
+
+footer{
+  grid-area: pie;
+}
+
+
+.imagen_banner_mobile{
+  display: none;
+}
+
+.logoSinFondo {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 80px;
+  height: auto;
+
+}
+
+
+.header_logo{
+  height: 70px;
+  display: flex;
+  padding: 1px;
+  justify-content: space-between;
+}
+
+.banner {
+
+  width="100%
+  display: flex;
+  justify-content: center;
+  flex-flow: nowrap;
+  align-items: center;
+  padding: 0px;
+  margin-top: 0px;
+  border: 0px;
+
+}
+
+}
+
