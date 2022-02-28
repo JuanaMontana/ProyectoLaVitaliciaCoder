@@ -1,91 +1,86 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Contacto</title>
-	<link rel="shortcut icon" href="../assets/img/logo.png">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+	<title>Login</title>
+	<link rel="shortcut icon" href="../assets/img/logo.PNG">
+	<!-- Css animate -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<!-- CDN CSS BOOTSTRAP -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 	<link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body>
-
-		 <!-- Inicio encabezado -->
-	<header class="header">
-		<!-- LOGO -->
-		<div class="header_logo">
-			<a href="../index.html"><img class="logoSinFondo" src="../assets/img/logoSinFondo.png" alt="logo"></a>
-			<a href="login.html"> <button class="login_button" role="button">LOGIN</button> </a>
-
-		</div>
-		<!-- Cierre logo -->
-
-		<!-- Inicio nav -->
-		<nav>
-			<ul class="header__nav nav--background">
-				
-				<li class="nav__item nav__item--background"><a href="../index.html">INICIO</a></li>
-				<li class="nav__item nav__item--background"><a href="quehacemos.html">QUE HACEMOS</a></li>
-				<li class="nav__item nav__item--background"><a href="fondodepensiones.html">FONDO DE PENSIONES</a></li>
-				<li class="nav__item nav__item--background"><a href="contacto.html">CONTACTO</a></li>
-
-			</ul>
-		</nav>
-		<!-- Cierre nav -->
-		
-	</header>
-	<!-- Cierre encabezado-->
-
-	<!-- Inicio contenido -->
-	<main>
-		
-		<div class="container">
-			<div>
-				<h1 class="titulo_login">LOGIN</h1>
+	<div class="container-fluid">
+		<!-- HEADER LOGO + NAV -->
+		<div class="row">
+			<div class="col-lg-12 col-12 text-center">
+				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				  <a class="navbar-brand" href="../index.html"><img class="logoSinFondo" src="../assets/img/logoSinFondo.png" alt="logo"></a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse " id="navbarNav">
+				    <div class="navbar-nav text-center">
+				        <a class="nav-item nav-link" href="../index.html">INICIO</a>
+				        <a class="nav-item nav-link" href="quehacemos.html">QUÉ HACEMOS</a>
+				        <a class="nav-item nav-link" href="fondodepensiones.html">FONDOS DE PENSIONES</a>
+				        <a class="nav-item nav-link" href="contacto.html">CONTACTO</a>
+				        <a href="login.html"> <button class="btn btn-primary nav-item">LOGIN</button> </a>
+				    </div>
+				  </div>
+				</nav>
 			</div>
 			
-			<div class="container_login">
-			    <label for="uname"><b>Usuario</b></label>
-			    <input class="login" type="text" placeholder="Ingresar Usuario" name="uname" required><br>
-
-			    <label for="psw"><b>Contraseña</b></label>
-			    <input class="login" type="password" placeholder="Ingresar Contraseña" name="psw" required><br>
-
-			    <button class="boton_login" type="submit">Login</button><br>
-			    <label class="login">
-        			<input type="checkbox" checked="checked" name="remember"> Recordar datos
-      			</label>
-    		</div>
-
 		</div>
-		
 
-			<!-- LOGIN -->
-		
+		<div class="row text-center">
+			<div class="container">
+				<div>
+					<h1 class="titulo_login">LOGIN</h1>
+				</div>
+				
+				<div class="container_login">
+				    <label for="uname"><b>Usuario</b></label>
+				    <input class="login" type="text" placeholder="Ingresar Usuario" name="uname" required><br>
 
+				    <label for="psw"><b>Contraseña</b></label>
+				    <input class="login" type="password" placeholder="Ingresar Contraseña" name="psw" required><br>
 
+				    
+				    <button class="boton_login" type="submit">Login</button><br>
+				    <label class="login">
+	        			<input type="checkbox" checked="checked" name="remember"> Recordar datos
+	      			</label>
+	    		</div>
 
-
-	</main>
-
-	<footer class="footer">
-		<!-- LOGO -->
-		<img src="" alt="">
-		<!-- REDES SOCIALES -->
-
-		<div>
-			<h3 class="footer_encabezado">REDES SOCIALES</h3>
-			<div class="footer_logos">	
-				<img class="footer_logoFacebook" src="../assets/img/facebook.png" width="50" height="50" alt="logofacebook">
-
-				<img class="footer_logoInstagram" src="../assets/img/instagram.png" width="50" height="50" alt="logoinstagram">
 			</div>
 		</div>
-	</footer>
 
-	
-	
+		
+
+
+
+		<!-- FOOTER -->
+		<div class="row text-center">
+			<div class="col-lg-12 col-12">
+				<h3>REDES SOCIALES</h3>	
+				<div class="footer_logos">
+					<img class="footer_logoFacebook" src="../assets/img/facebook.png" width="50" height="50" alt="logofacebook">
+
+					<img class="footer_logoInstagram" src="../assets/img/instagram.png" width="50" height="50" alt="logoinstagram">
+					
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<!-- JS BOOTSTRAP -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+	<script src="js/wow.min.js"></script>
+    <script> new WOW().init(); </script>
 </body>
 </html>
