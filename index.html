@@ -10,6 +10,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
 
+	<!-- AOS -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 	
 	<!-- Css animate -->
@@ -93,35 +95,64 @@
 			
 		</div>
 
-		<div class="row align-items-center text-center carta ">
+		<div class="row align-items-center text-center carta">
 		    <div class="noticia text-center animate__bounceIn">
-		      <h2>One of three news</h2>
+		      <h2 class="titulo_noticia">A dos meses del fin del tercer retiro del 10%</h2>
 		      <img class="imagen_noticia border img-fluid" src="assets/img/noticia1.jpg"  alt="noticia1">
-		      <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus repudiandae vitae incidunt praesentium cumque quis molestiae, expedita. Cumque, nobis hic laboriosam, enim nulla, modi dolorum fugit commodi veniam non, mollitia.</p>
+		      <p class="item_noticia"> El 28 de abril vence el plazo para pedir los fondos de este último proceso. Según cifras de la Asociación de AFP, el 93% de los afiliados activos que podía hacer el primer retiro, lo hizo. Esa cifra llega al 92% en el caso de los pensionados. En el segundo retiro fue el 88% de los afiliados activos y el 79% en el caso de los pensionados.</p>
 		      <a class="ver_mas" href="views/noticias.html">Ver Más > </a>
 		    </div>
 		    <div class="noticia text-center animate__bounceIn">
-		      <h2>One of three news</h2>
+		      <h2 class="titulo_noticia">¿Cuál es el monto máximo que se podría sacar?</h2>
 		      <img class="imagen_noticia border img-fluid" src="assets/img/noticia2.jpg"  alt="noticia2">
-		      <p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Sequi asperiores alias maiores minus accusantium voluptas, a facilis fugiat hic enim maxime ad, sint reiciendis et, delectus illo natus atque, adipisci!</p>
+		      <p class="item_noticia">Pese a que se rechazó el proyecto de un cuarto retiro, los parlamentarios ya comenzaron a trabajar en nuevas indicaciones para un posible quinto retiro del 10% de las AFPs. Precisamente, el nuevo proyecto del quinto retiro fue ingresado por la diputada Pamela Jiles y su par Félix González. Eso sí, aún no hay claridad.</p>
 		      <a class="ver_mas" href="views/noticias.html">Ver Más > </a>
 		    </div>
 		    <div class="noticia text-center animate__bounceIn">
-		      <h2>One of three news</h2>
+		      <h2 class="titulo_noticia">Prensa española habla sobre las afp Chilenas</h2>
 		      <img class="imagen_noticia border img-fluid" src="assets/img/noticia3.jpg"  alt="noticia3">
-		      <p class="item_noticia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, sit ut saepe consectetur, adipisci labore, explicabo omnis incidunt doloribus, quisquam quidem sint sed atque pariatur aut officiis perspiciatis similique eius?</p>
+		      <p class="item_noticia">El modelo impuesto por Pinochet (y exportado a varios países del mundo) se basa en un sistema de ahorro privado a través del cual el trabajador contratado, deposita cada mes un 10% de su salario a una cuenta individual gestionada por entidades privadas del sector financiero conocidas como Administradores de Fondos de Pensiones. </p>
 		      <a class="ver_mas" href="views/noticias.html">Ver Más > </a>
 		    </div>
 		</div>
 
-
-
-		<!-- MAIN SECTION -->
 		
+
+
+		<!-- INDICADORES ECONOMICOS -->
+
+		<!-- ANUNCIOS -->
+
+		<div class="section">
+			<div class="promo1 code--small code--left aos-init aos-animate text-center" data-aos="fade-right">
+				<h2 class="titulo-promo">Disfruta tu vejez </h2>
+					<p class="texto-promo">Le hacemos una proyección personalizada de su jubilación, para que pueda ahorrar a través de un Seguro de Vida y pueda JUBILARSE adecuadamente.</p>
+			</div>
+
+			<div class="promo2 code--small code--right aos-init aos-animate text-center" data-aos="fade-left">
+				<h2 class="titulo-promo">Retira el 10% de tus Ahorros </h2>
+					<p class="texto-promo">En estos tiempos tan dificiles, puede retirar el 10% de tus Ahorros desde Chile o el Extranjero cuando quieras y directamente a tu cuenta bancaria.</p>
+			</div>
+
+			<div class="promo3 code--small code--left aos-init aos-animate text-center" data-aos="fade-right">
+				<h2 class="titulo-promo">Cuenta 2</h2>
+					<p class="texto-promo">Con la Cuenta 2 puede hacer crecer tus ahorros a través de la rentabilidad de los multifondos, ademas, con la opción siempre intacta de retirar su dinero cuando lo estime conveniente.</p>
+			</div>
+
+		</div>
+
+
+		
+		<div >
+			<div class="code">
+			</div>
+		</div>
+		<!-- MAIN SECTION -->
+
 
 		<!-- FOOTER -->
 		<div class="row text-center">
-			<div class="col-lg-12 col-12">
+			<div class="col-12">
 				<h3>REDES SOCIALES</h3>	
 				<div class="footer_logos">
 					<img class="footer_logoFacebook" src="assets/img/facebook.png" width="50" height="50" alt="logofacebook">
@@ -141,6 +172,13 @@
 	<script src="js/wow.min.js"></script>
     <script> new WOW().init(); </script>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  		AOS.init({
+  			offset: 400,
+  			duration: 800
+  		});
+	</script>
 
 </body>
 </html>
