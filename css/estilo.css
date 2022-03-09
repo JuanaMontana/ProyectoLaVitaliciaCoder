@@ -1,9 +1,6 @@
 * {
   font-family: 'Open Sans', sans-serif; }
 
-nav {
-  background-color: #393939; }
-
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -6849,11 +6846,28 @@ html {
   html {
     font-size: 1rem; } }
 
+nav {
+  background-color: #393939; }
+
 .navbar-collapse {
   justify-content: flex-end; }
 
 .logoSinFondo {
   width: 70px; }
+
+.code--footer {
+  width: 40%;
+  clear: both;
+  height: 200px;
+  background: #FFF;
+  border-radius: 2px;
+  margin: 12vh 0;
+  padding: 10px; }
+
+.footer_logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
 
 .carta {
   display: flex;
@@ -6890,106 +6904,6 @@ html {
   justify-content: flex-end;
   margin-right: 30px;
   margin-top: 0px; }
-
-.main_quehacemos {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  padding: 40px;
-  text-align: center;
-  flex-wrap: wrap; }
-
-.texto_quehacemos {
-  width: 70%;
-  display: flex;
-  justify-content: center;
-  padding: 40px;
-  text-align: center; }
-
-.imagen_quehacemos {
-  width: 300px;
-  height: 200px;
-  margin: 0px;
-  object-fit: cover;
-  text-align: center; }
-
-.main_fondodepensiones {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 30px;
-  flex-wrap: wrap; }
-
-.main_contacto {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap; }
-
-.formulario_contacto {
-  text-align: right;
-  padding: 30px; }
-
-.mapa_contacto {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 50px;
-  height: auto; }
-
-iframe {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  text-align: center; }
-
-.encuentra_sucursal {
-  display: flex;
-  justify-content: center;
-  padding: 40px;
-  text-align: center; }
-
-.container {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center; }
-
-.container_login {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 40px;
-  text-align: center;
-  justify-content: space-around; }
-
-.login {
-  text-align: center;
-  margin-right: 30%;
-  margin-left: 30%; }
-
-.boton_login {
-  text-align: center;
-  margin-right: 40%;
-  margin-left: 40%; }
-
-.titulo_login {
-  margin-top: 100px; }
-
-.noticia {
-  width: 300px;
-  height: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  justify-content: space-around;
-  margin-right: 50px;
-  margin-left: 50px;
-  margin-top: 10px;
-  margin-bottom: 50px;
-  border: 1px solid black;
-  border-top: 14px outset #009672;
-  border-radius: 16px; }
 
 .promo1 {
   width: 40%;
@@ -7048,17 +6962,107 @@ iframe {
 .section {
   display: block; }
 
-.code--footer {
-  width: 40%;
-  clear: both;
-  height: 200px;
-  background: #FFF;
-  border-radius: 2px;
-  margin: 12vh 0;
-  padding: 10px; }
-
 .titulo-promo {
   margin: 10px; }
 
 .texto-promo {
   margin: 10px; }
+
+.main_quehacemos {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 40px;
+  text-align: center;
+  flex-wrap: wrap; }
+
+.texto_quehacemos {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  text-align: center; }
+
+.imagen_quehacemos {
+  width: 300px;
+  height: 200px;
+  margin: 0px;
+  object-fit: cover;
+  text-align: center; }
+
+.main_fondodepensiones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  flex-wrap: wrap; }
+
+.fondo {
+  text-align: center; }
+
+.main_contacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.formulario_contacto {
+  text-align: right;
+  padding: 30px; }
+
+.mapa_contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  height: auto; }
+
+iframe {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+
+.encuentra_sucursal {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  text-align: center; }
+
+.noticia_1 {
+  text-align: justify;
+  margin: 50px; }
+
+h2 {
+  text-align: center; }
+
+img {
+  display: block;
+  margin: auto; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center; }
+
+.container_login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  text-align: center;
+  justify-content: space-around; }
+
+.login {
+  text-align: center;
+  margin-right: 30%;
+  margin-left: 30%; }
+
+.boton_login {
+  text-align: center;
+  margin-right: 40%;
+  margin-left: 40%; }
+
+.titulo_login {
+  margin-top: 100px; }
