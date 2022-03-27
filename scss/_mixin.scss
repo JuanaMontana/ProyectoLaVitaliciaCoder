@@ -1,0 +1,36 @@
+@mixin promos1y3($tamaño,$clear,$height,$background,$border,$margin,
+	$display,$flex-direction,$justify-content){
+	width: $tamaño;
+  clear: $clear;
+  height: $height;
+  background: $background;
+  border-radius: $border;
+  margin: $margin;
+  display: $display;
+  flex-direction: $flex-direction;
+  justify-content: $justify-content; 
+
+  @mixin promos2($tamaño,$clear,$height,$background,$border,$margin,
+	$display,$flex-direction,$justify-content){
+	width: $tamaño;
+  clear: $clear;
+  height: $height;
+  background: $background;
+  border-radius: $border;
+  margin: $margin;
+  display: $display;
+  flex-direction: $flex-direction;
+  justify-content: $justify-content; 
+
+
+.promo1{
+	@include promos1-3(40%,both,300px,#009672,16px,6vh 0,flex,column,space-around);
+}
+
+.promo3{
+	@include promos1-3(40%,both,300px,#009672,16px,6vh 0,flex,column,space-around);
+}
+
+.promo2{
+	@include promos1-3(40%,both,300px,#7479d8,16px,6vh 0,flex,column,space-around);
+}
